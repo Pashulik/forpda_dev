@@ -792,11 +792,7 @@ span[style*="font-size:8pt"] * {
 .post_header .header_wrapper .reputation span:before {
   content: 'Реп.';
   display: inline-block;
-}
-@media screen and (max-width: 800px) {
-  .post_header .header_wrapper .reputation span:before {
-    margin-right: 0.1875rem;
-  }
+  margin-right: 0.1875rem;
 }
 .post_header .header_wrapper .date-link {
   position: absolute;
